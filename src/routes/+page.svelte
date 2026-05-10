@@ -14,7 +14,7 @@
 
 			var sound = new Howl({
 	src: ['\UGHBMFMF.mp3'],
-	autoplay: false,
+	autoplay: true,
 	loop: true,
 	volume: 0.25,
 	onend: function() {
