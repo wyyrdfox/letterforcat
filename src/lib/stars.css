@@ -1,0 +1,44 @@
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6 {
+    height: 2px;
+    width: 2px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -3;
+    position: absolute;
+    
+}
+
+.star1{
+    top: 30%;
+    left:30%
+}
+
+.star2{
+    top: 50%;
+    right: 20%;
+}
+
+.star3{
+    top: 15%;
+    right: 25%;
+}
+
+.star4{
+    top: 45%;
+    left: 10%;
+}
+
+.star5{
+    top: 55%;
+    left: 25%;
+}
+
+.star6{
+    top: 25%;
+    right: 40%;
+}
