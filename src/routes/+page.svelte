@@ -13,7 +13,7 @@
 	});
 
 			var sound = new Howl({
-	src: ['\UGHBMFMF.mp3'],
+	src: ['/UGHBMFMF.mp3'],
 	autoplay: true,
 	loop: true,
 	volume: 0.25,
