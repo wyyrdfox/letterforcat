@@ -7,5 +7,6 @@
         width: 150px;
         background-color: #E1D7A3;
         border-radius: 50%;
+        border: none;
         z-index: -1;
     }

@@ -29,8 +29,9 @@
     <title>for you, the moon</title>
 </head>
 
-<div class="moon"></div>
+
 <div class="wave"></div>
+<div class="reflection"></div>
 <div class="stars">
 	<div class="star1"></div>
 	<div class="star2"></div>
@@ -38,15 +39,22 @@
 	<div class="star4"></div>
 	<div class="star5"></div>
 	<div class="star6"></div>
+	<div class="star7"></div>
+	<div class="star8"></div>
+	<div class="star9"></div>
+	<div class="star10"></div>
+	<div class="star11"></div>
+	<div class="star12"></div>
+	<div class="star13"></div>
 </div>
 
 <div class="main">
     <h1 class="main_header" style="text-align: center; color: white; font-family: 'Courier New', Courier, monospace;">
-        Click the button to open up the letter :3
+        Click the moon to open up the letter :3
     </h1>
 
     <div style="text-align: center;">
-        <button  type="button" onclick={() => (showModal = true)}>Click me!!</button>
+        <button aria-label="Open" class="moon"  type="button" onclick={() => (showModal = true)}></button>
     </div>
 </div>
 
