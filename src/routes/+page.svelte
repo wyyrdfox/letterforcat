@@ -74,7 +74,8 @@
 			<p>-Your Canis vulpes / Lycalopex</p>
 			<br>
 			<img class="nomnom" src="/nom.webp" alt="Farrel eats Chandras brain lmao">
-			
+			<p style="text-align: center;">happy 19th birthday おねえちゃん :3</p>
+			<br>
 			<!-- svelte-ignore a11y_autofocus -->
 			<button class="close_letter" onclick={() => dialog.close()}>close letter</button>
 		</div>
