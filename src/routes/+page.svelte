@@ -10,6 +10,7 @@
 
 	$effect(() => {
 		if (showModal) dialog.showModal();
+		dialog.scrollTop = 0;
 	});
 
 			var sound = new Howl({
@@ -31,7 +32,6 @@
 
 
 <div class="wave"></div>
-<div class="reflection"></div>
 <div class="stars">
 	<div class="star1"></div>
 	<div class="star2"></div>
@@ -72,10 +72,11 @@
 			</p>
 			<br>
 			<p>-Your Canis vulpes / Lycalopex</p>
-
-
+			<br>
+			<img class="nomnom" src="/nom.webp" alt="Farrel eats Chandras brain lmao">
+			
 			<!-- svelte-ignore a11y_autofocus -->
-			<button autofocus onclick={() => dialog.close()}>close</button>
+			<button class="close_letter" onclick={() => dialog.close()}>close letter</button>
 		</div>
 	</div>
 </dialog>
@@ -105,6 +106,24 @@
 
 	.letter{
 		margin: 5%;
+	}
+
+	.nomnom {
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	.close_letter{
+		border-width: 2px;
+		border-radius: 5px;
+		background-image: none;
+		background-color: #E0D3AF;
+		font-family: 'Courier New', Courier, monospace;
+		cursor: pointer;
+		border: none
 	}
 
 </style>
